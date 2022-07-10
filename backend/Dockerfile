@@ -28,4 +28,4 @@ RUN pip install "jax[cuda11_cudnn82]" -f https://storage.googleapis.com/jax-rele
 COPY . /app
 
 # run server
-CMD python3 app.py --port 8080 --model_version mini
+CMD python3 app.py --port 8080 --model_version mega
